@@ -12,4 +12,4 @@ This project focuses on secure database design and access control implementation
 ## Technologies
 SQL (MySQL), Access Control, Secure Database Design ...
 
-> Note: All examples are sanitized and for educational purposes only.
+> Note: This project is based on a university assignment and has been adapted for portfolio purposes. All content is sanitized and does not include exploit payloads or sensitive information.
