@@ -1,2 +1,11 @@
 # kianUNI-CYBSEC-PROJ-Portfolio
 A technical project archive showcasing hands-on work in security analysis, penetration testing, malware detection, and secure database implementation. Documentation and samples only.
+
+## Projects
+- FYP --> will be added later
+- MalCommandGuard – Malicious Command Detection System
+- Distributor Agent Management System (DAMS)
+- Vulnerability Assessment & Penetration Testing (DVWA)
+- Breach and Attack Simulation, Detection and Analysis
+
+> Note: All content is sanitized. No sensitive data or exploit code is included.
