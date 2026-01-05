@@ -25,6 +25,7 @@ OWASP ZAP, Burp Suite, SQLMap, Web Security Methodologies
 | Start Date | Wednesday, 19March2025, 11:06:31PM  |
 | End Date | Wednesday, 26March2025, 7:31:11PM |
 
+
 > Note: This project is based on a university assignment and has been adapted for portfolio purposes.
 > All content is sanitized and does not include exploit payloads or sensitive information.
 
