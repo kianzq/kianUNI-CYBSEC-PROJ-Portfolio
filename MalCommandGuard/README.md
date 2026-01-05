@@ -12,4 +12,4 @@ MalCommandGuard is a security-focused command detection system designed to ident
 ## Technologies
 Python, Scikit-learn, ML and NLP techniques, Regex, Secure Logging
 
-> Note: This repository contains sanitized documentation and sample outputs only.
+> Note: This project is based on a university assignment and has been adapted for portfolio purposes. All content is sanitized and does not include exploit payloads or sensitive information.
