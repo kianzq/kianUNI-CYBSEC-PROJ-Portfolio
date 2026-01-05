@@ -12,4 +12,4 @@ This project simulates realistic cyber attack scenarios (specifically Phishing A
 ## Technologies
 Attack Simulation Tools (HiddenEye, KeyLogger integration, Phishing Server, Ngrok, and Socail Engineering (Victims Attempts)), Log Analysis (PhishTool, WHOIS Lookup, SPF Checks, Wireshark (Traffic Packets), HTTP Requests), Threat Modeling Concepts
 
-> Note: This project is intended for educational and defensive security analysis.
+> Note: This project is based on a university assignment and has been adapted for portfolio purposes. All content is sanitized and does not include exploit payloads or sensitive information.
