@@ -66,8 +66,29 @@ Potential Impact:
 Countermeasures and Recommendations were developed for the identified critical vulnerabilities.
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/021ef4a0-1642-4f8d-9c40-dad67fd5b61c" />
 
+## ✅Conclusion
+Through this VAPT project on DVWA, I gained comprehensive hands-on experience following the CompTIA VAPT methodology, covering its four phases: Planning, Discovery, Vulnerability Assessment, and Penetration Testing. I learned how to scope an assessment, respect legal and compliance requirements (SOW, NDA, ROE), and integrate industry standards such as ISO/IEC 27001 and NIST CSF into practical testing.
+
+The project reinforced practical skills in both automated and manual testing, including OWASP ZAP for VA and Burp Suite / SQLMap for PT, with the ability to identify, classify, and prioritize vulnerabilities using CWE, CVE identifiers, and CVSS scoring. I also developed experience in analyzing attack vectors, understanding impact and likelihood, and providing structured remediation recommendations.
+
+**Key takeaways:**
+- Mastered the end-to-end VAPT process aligned with professional methodology
+- Applied legal, compliance, and ethical guidelines in real-world scenarios
+- Learned to assess vulnerabilities critically and interpret severity scores
+- Strengthened knowledge of industry standards, secure configurations, and mitigation strategies
+
+
 ## 📚References
 ### Table of Contents
+
+**VAPT Proposal**
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3b45c059-26c0-417c-8f44-5f3bea16b198" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/932170cc-09f7-4546-b465-d1e4de442eea" />
+
+
+**VAPT Exploitation**
+
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/8ae400ff-a7c6-44ad-8672-49ec5adf5843" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/d2e09d90-632a-44d2-ae82-97d8e0a7c932" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/47c0e116-69e0-4347-abce-e653fb2ea171" />
