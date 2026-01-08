@@ -36,17 +36,84 @@ Example: Agent with minimal access only
 
 
 ## 🔍 Main Focus (SQL Database Security Implementations)
+### Data Protection
+- **Hashing**
+
+Hash password when a new agent is added.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/460e35df-da21-45d3-b595-c1c72d278880" />
+
+- **Hashing + Salting**
+
+Password hashing and salting when a new employee is added.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/460ba9ff-11c0-4b92-8413-50da71cc3b79" />
+
+- **Data Obfuscation**
+
+Sensitive informations are masked or hidden to unecessary role.
+Ex: Agent emails, contact and address are restricted to Marketing.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/e7a71f59-0532-4ec1-bb40-fbc936af7a51" />
+
+- **Encryption**
+
+Master key acts as the top-level encryption key that protects other sensitive keys in the system.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/586f01af-96bd-4329-88bd-f3ffcfc2e66c" />
+
+Below activates Transparent Data Encryption (TDE) for the database by 
+creating a database encryption key using the strong AES 256 encryption algorithms and will be protected by the created certificate.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/7a2b107e-b3bb-43da-9d51-2bd1f45cec16" />
+
+- **Backup & Restore**
+
+Backup Master key and Certificate created.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/ba82116b-2c83-4512-839d-902d3df92239" />
+
+- **Authentication (Session Handling & Session Expiry)**
+
+When an Agent or Employee logs into the system, a session is created with a unique session id and tracked with timestamps including login time and last activity.
+This ensure that only authenticated users can perform operations and users will be logged out automatically after 30 minutes.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4378622a-7437-489d-89c2-56c5e81e1c2d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/50dda9ef-d8c3-4e14-b8c5-4d49a97345c6" />
+
+### Permission Management
+
+- **Role-based permission (Grant, Deny etc)**
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/9a7f6e45-282d-4c27-a27f-c49ee4834c06" />
+
+- **Row-level security (RLS) for Agent and Employee**
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/19d1f6ee-bfb4-4835-8459-712cc2dee454" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a86942c8-1a5d-46d7-925b-e871dbe9b52e" />
+
+### Auditing
+Each techniques shows different type of auditing activity, such as login/logout activities, DML, DDL, DCL etc.
+
+- **Server-level auditing**
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/63175586-9007-4a13-b007-6b40af2c9866" />
+
+- **Database-level auditing**
+
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/e196db7a-ddfe-44b1-b79b-b0cde42d33d4" />
+
+- **Audit log table & Triggers**
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/5b2b76b6-c3f3-4a18-b0fb-df8f31881ab3" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/c48f7dda-4a67-4f71-8ef9-cce3993bd92c" />
 
 
+## ✅ Conclusion
+Through this project, I gained a deeper understanding of how database security must be designed as part of the system architecture rather than treated as an afterthought. I learned that SQL-based systems often store highly sensitive information and therefore require strict access control, secure query handling, and well-defined privilege boundaries to prevent misuse and escalation attacks.
 
+By implementing mechanisms such as role-based access control (RBAC), stored procedures, row-level security (RLS), views, data masking, and controlled session management, I developed practical insight into how secure database designs can effectively mitigate risks such as unauthorized access, horizontal and vertical privilege escalation, and data leakage. This project reinforced the importance of defensive database design, where users interact with controlled interfaces instead of raw tables, ensuring consistent enforcement of security checks.
 
+Overall, the project strengthened my developer mindset toward secure system implementation, highlighting that strong database security is critical to preserving data confidentiality, integrity, and availability. It emphasized the role of secure SQL design in real-world systems and the need to align database controls with the principle of least privilege and secure-by-design development practices.
 
-
-
-
-
-## ✅ Conclusion → Summary & learnings
-
-
-
-> Note: This project is based on a university assignment and has been adapted for portfolio purposes. All content is sanitized and does not include exploit payloads or sensitive information.
+> Note: This project is based on a university assignment and has been adapted for **portfolio purposes**. All content is sanitized and does not include exploit payloads or sensitive information. 
